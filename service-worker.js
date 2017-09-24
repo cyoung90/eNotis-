@@ -15,24 +15,23 @@
 var dataCacheName = 'weatherData-v1';
 var cacheName = 'weatherPWA-final-1';
 var filesToCache = [
-  '/',
-  '/eNotisPlus2/',
-  '/eNotisPlus2/index.html',
-  '/eNotisPlus2/scripts/app.js',
-  '/eNotisPlus2/styles/inline.css',
-  '/eNotisPlus2/images/clear.png',
-  '/eNotisPlus2/images/cloudy-scattered-showers.png',
-  '/eNotisPlus2/images/cloudy.png',
-  '/eNotisPlus2/images/fog.png',
-  '/eNotisPlus2/images/ic_add_white_24px.svg',
-  '/eNotisPlus2/images/ic_refresh_white_24px.svg',
-  '/eNotisPlus2/images/partly-cloudy.png',
-  '/eNotisPlus2/images/rain.png',
-  '/eNotisPlus2/images/scattered-showers.png',
-  '/eNotisPlus2/images/sleet.png',
-  '/eNotisPlus2/images/snow.png',
-  '/eNotisPlus2/images/thunderstorm.png',
-  '/eNotisPlus2/images/wind.png'
+  './',
+  './index.html',
+  './scripts/app.js',
+  './styles/inline.css',
+  './images/clear.png',
+  './images/cloudy-scattered-showers.png',
+  './images/cloudy.png',
+  './images/fog.png',
+  './images/ic_add_white_24px.svg',
+  './images/ic_refresh_white_24px.svg',
+  './images/partly-cloudy.png',
+  './images/rain.png',
+  './images/scattered-showers.png',
+  './images/sleet.png',
+  './images/snow.png',
+  './images/thunderstorm.png',
+  './images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
